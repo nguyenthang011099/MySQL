@@ -57,3 +57,29 @@ ON DELETE CASCADE – learn how to use ON DELETE CASCADE referential action for 
 DELETE JOIN – show you how to delete data from multiple tables.
 
 REPLACE – learn how to insert or update data depends on whether data exists in the table or not.
+## MySQL data types
+NT – show you how to use integer data type.
+
+DECIMAL – show you how to use DECIMAL data type to store exact values in decimal format.
+
+BIT – introduce you BIT data type and how to store bit values in MySQL.
+
+BOOLEAN – explain to you how MySQL handles Boolean values by using TINYINT(1) internally.
+
+CHAR – guide to CHAR data type for storing the fixed-length string.
+
+VARCHAR – give you the essential guide to VARCHAR data type.
+
+TEXT – show you how to store text data using TEXT data type.
+
+DATE – introduce you to the DATE data type and show you some date functions to handle the date data effectively.
+
+TIME – walk you through the features of TIME data type and show you how to use some useful temporal functions to handle time data.
+
+DATETIME – introduce you to the DATETIME data type and some useful functions to manipulate DATETIME values.
+
+TIMESTAMP – introduce you to TIMESTAMP and its features called automatic initialization and automatic update that allows you to define auto-initialized and auto-updated columns for a table.
+
+JSON – show you how to use JSON data type to store JSON documents.
+
+ENUM – learn how to use ENUM data type correctly to store enumeration values.
