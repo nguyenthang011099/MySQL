@@ -3,6 +3,7 @@ MySQL is a database management system.
 MySQL databases are relational.
 MySQL software is Open Source.
 The MySQL Database Server is very fast, reliable, scalable, and easy to use.
+link tham khảo https://laravel.com/docs/5.8/eloquent
 ## Query data
 This section helps you learn how to query data from the MySQL database server. We will start with a simple SELECT statement that allows you to query data from a single table.
 
