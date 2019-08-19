@@ -5,6 +5,7 @@ MySQL software is Open Source.
 The MySQL Database Server is very fast, reliable, scalable, and easy to use.
 ## Query data
 This section helps you learn how to query data from the MySQL database server. We will start with a simple SELECT statement that allows you to query data from a single table.
+
 SELECT – show you how to use simple SELECT statement to query the data from a single table.
 ## Sorting data
 ORDER BY – show you how to sort the result set using ORDER BY clause. The custom sort order with the FIELD function will be also covered.
