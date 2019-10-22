@@ -1,15 +1,20 @@
+## What is SQL
+SQL stands for Structured Query Language.
+It is used to query the database for certain information or to carry out certain tasks.
+It is a hybrid language and consists of DQL (Data Query Language), DDL (Data Definition Language), DCL (Data Control Language) and DML(Data Manipulation Language).
 ## What is MySQL
 MySQL is a database management system.
 MySQL databases are relational.
 MySQL software is Open Source.
 The MySQL Database Server is very fast, reliable, scalable, and easy to use.
-link tham khảo https://laravel.com/docs/5.8/eloquent
+Official link to the latest free community version of MySQL: https://dev.mysql.com/downloads/installer/
+Official website: https://dev.mysql.com/
 ## Query data
 This section helps you learn how to query data from the MySQL database server. We will start with a simple SELECT statement that allows you to query data from a single table.
 
 SELECT – show you how to use simple SELECT statement to query the data from a single table.
 ## Sorting data
-ORDER BY – show you how to sort the result set using ORDER BY clause. The custom sort order with the FIELD function will be also covered.
+ORDER BY – show you how to sort the result set using ORDER BY clause. The custom sort order with the FIELD function will be also covered. Sorting can be in ascending order (ASC - default sorting if nothing is mentioned) or in descending order (DESC).
 ## Filtering data
 WHERE – learn how to use the WHERE clause to filter rows based on specified conditions.
 
@@ -48,10 +53,17 @@ INSERT INTO SELECT – insert data into a table from the result set of a query.
 INSERT IGNORE  – explain you the INSERT IGNORE statement that inserts rows into a table and ignore rows that cause errors.
 
 UPDATE – learn how to use UPDATE statement and its options to update data in database tables.
+Syntax: 
+		UPDATE <table_name>
+		SET <update_attribute_values>
+		WHERE <condition>;
 
 UPDATE JOIN – show you how to perform cross table update using UPDATE JOIN statement with INNER JOIN and LEFT JOIN.
 
 DELETE – show you how to use the DELETE statement to delete rows from one or more tables.
+Syntax to delete a tuple (row) from a table:
+	DELETE FROM <table_name>
+	WHERE <condition>;
 
 ON DELETE CASCADE – learn how to use ON DELETE CASCADE referential action for a foreign key to delete data from a child table automatically when you delete data from a parent table.
 
