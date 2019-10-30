@@ -84,3 +84,22 @@ TIMESTAMP – introduce you to TIMESTAMP and its features called automatic initi
 JSON – show you how to use JSON data type to store JSON documents.
 
 ENUM – learn how to use ENUM data type correctly to store enumeration values.
+
+## MySQL Aggregate functions
+
+Use the following syntax:
+          SELECT <func_name>(<operation_column>)
+          FROM <table_name>
+          WHERE <condition>;
+  
+ Aggregate function names and use:
+ 
+ AVG() ~ Average value of all values in column_name written in brackets, ignoring null values
+ 
+ COUNT() ~ Number of rows(or records) in a table selected by query
+ 
+ MAX() ~ Maximum value out of column values in a table selected by query
+ 
+ MIN() ~ Minimum value out of column values in a table selected by query
+ 
+ SUM() ~ Sum of column values in a table selected by query
