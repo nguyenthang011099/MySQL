@@ -94,12 +94,12 @@ Use the following syntax:
   
  Aggregate function names and use:
  
- AVG() ~ Average value of all values in column_name written in brackets, ignoring null values
+ AVG() ~ Average value of all values in column_name written in brackets, ignoring null values.
  
- COUNT() ~ Number of rows(or records) in a table selected by query
+ COUNT() ~ Number of rows(or records) in a table selected by query.
  
- MAX() ~ Maximum value out of column values in a table selected by query
+ MAX() ~ Maximum value out of column values in a table selected by query.
  
- MIN() ~ Minimum value out of column values in a table selected by query
+ MIN() ~ Minimum value out of column values in a table selected by query.
  
- SUM() ~ Sum of column values in a table selected by query
+ SUM() ~ Sum of column values in a table selected by query.
